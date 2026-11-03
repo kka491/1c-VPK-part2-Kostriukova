@@ -1,0 +1,247 @@
+{
+  "uuid": "2c368c5d-2897-4b07-bdd7-9ba87f36b2c7",
+  "lastMigration": 33,
+  "name": "Test",
+  "endpointPrefix": "Test",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "ef6fb7fe-740e-4ee4-b1ad-88e2651306e9",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "44ca91f1-720e-47c2-b513-34e711318d92",
+          "body": "{\n  \"testmessage\": \"Hello world!\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "35465eb1-fcbc-42f6-bb48-2bc9a3ce0a77",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "942b9571-209d-4beb-b669-172c994c039b",
+          "body": "{\n  \"result\": \"created\"\n}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "118cf768-9216-4535-8c48-4467c11c110b",
+      "type": "http",
+      "documentation": "",
+      "method": "delete",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "dc69cd4f-edd5-4cbf-944a-8d839af38f54",
+          "body": "{\n  \"result\": \"deleted\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "653d7090-aedc-45c3-9bbb-7ccf2fbbef8a",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "TestPath",
+      "responses": [
+        {
+          "uuid": "9141de0d-0d7b-41cc-b53c-7b9bb8da6681",
+          "body": "{\n  \"path\": \"/TestPath\",\n  \"message\": \"Ответ заглушки Mockoon\",\n  \"items\": [\n    {\"id\": 1, \"name\": \"Товар А\", \"price\": 400},\n    {\"id\": 2, \"name\": \"Товар Б\", \"price\": 300}\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "29466815-aea6-45e7-839e-69f4d012d279",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "TestPath",
+      "responses": [
+        {
+          "uuid": "dd5dcf8f-1e83-4986-96b3-b47037d7ea3e",
+          "body": "{\n  \"result\": \"created\"\n}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "fd2d21a1-a320-4386-adbf-37ee18f40672",
+      "type": "http",
+      "documentation": "",
+      "method": "delete",
+      "endpoint": "TestPath",
+      "responses": [
+        {
+          "uuid": "f1901b17-165d-4338-b9dd-82aca6736b3e",
+          "body": "{\n  \"result\": \"deleted\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "ef6fb7fe-740e-4ee4-b1ad-88e2651306e9"
+    },
+    {
+      "type": "route",
+      "uuid": "35465eb1-fcbc-42f6-bb48-2bc9a3ce0a77"
+    },
+    {
+      "type": "route",
+      "uuid": "118cf768-9216-4535-8c48-4467c11c110b"
+    },
+    {
+      "type": "route",
+      "uuid": "653d7090-aedc-45c3-9bbb-7ccf2fbbef8a"
+    },
+    {
+      "type": "route",
+      "uuid": "29466815-aea6-45e7-839e-69f4d012d279"
+    },
+    {
+      "type": "route",
+      "uuid": "fd2d21a1-a320-4386-adbf-37ee18f40672"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json; charset=utf-8"
+    }
+  ],
+  "proxyReqHeaders": [],
+  "proxyResHeaders": [],
+  "data": [],
+  "callbacks": []
+}
